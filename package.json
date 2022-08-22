@@ -5,7 +5,7 @@
   "scripts": {
     "scss": "sass --watch style.scss style.css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ./final_project_1"
   },
   "keywords": [],
   "author": "",
