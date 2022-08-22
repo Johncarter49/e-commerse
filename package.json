@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "scss": "sass --watch style.scss style.css"
+    "scss": "sass --watch style.scss style.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,16 @@
     "fslightbox": "^3.3.1",
     "sass": "^1.54.4"
   },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johncarter49/e-commerse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Johncarter49/e-commerse/issues"
+  },
+  "homepage": "https://github.com/Johncarter49/e-commerse#readme",
   "description": ""
 }
