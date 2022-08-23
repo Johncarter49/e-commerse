@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "scss": "sass --watch style.scss style.css",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d ./final_project_1"
+    "scss": "sass --watch ../styles/style.scss style.css",
+    "deploy": "gh-pages -d ./src"
   },
   "keywords": [],
   "author": "",
