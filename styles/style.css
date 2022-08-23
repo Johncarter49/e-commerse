@@ -125,4 +125,8 @@
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
+
+.checked {
+  color: orange;
+}
 /*# sourceMappingURL=style.css.map */
